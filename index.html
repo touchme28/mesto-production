@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-CRJ_3S2G.js"></script>
+    <script type="module" crossorigin src="./assets/index-LdJcwC5u.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-D2z4Cjqv.css">
   </head>
   <body class="page">
@@ -22,9 +22,7 @@
       </header>
       <main class="content">
         <section class="profile page__section">
-          <div
-            class="profile__image"
-          ></div>
+          <div class="profile__image"></div>
           <div class="profile__info">
             <h1 class="profile__title"></h1>
             <button class="profile__edit-button" type="button"></button>
@@ -60,7 +58,10 @@
                 pattern="[A-Za-zА-Яа-я\-\s]+"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
               />
-              <span class="popup__error popup__error_visible" id="user-name-error"></span>
+              <span
+                class="popup__error popup__error_visible"
+                id="user-name-error"
+              ></span>
             </label>
             <label class="popup__label">
               <input
@@ -73,7 +74,10 @@
                 minlength="2"
                 maxlength="200"
               />
-              <span class="popup__error popup__error_visible" id="user-description-error"></span>
+              <span
+                class="popup__error popup__error_visible"
+                id="user-description-error"
+              ></span>
             </label>
             <button
               type="submit"
@@ -83,7 +87,6 @@
               Сохранить
             </button>
           </form>
-
         </div>
       </div>
 
@@ -106,7 +109,10 @@
                 pattern="[A-Za-zА-Яа-я\-\s]+"
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
               />
-              <span class="popup__error popup__error_visible" id="place-name-error"></span>
+              <span
+                class="popup__error popup__error_visible"
+                id="place-name-error"
+              ></span>
             </label>
             <label class="popup__label">
               <input
@@ -119,7 +125,10 @@
                 pattern="https?://.+"
                 data-error-message="Значение должно быть ссылочным (начинаться с https:// или http://)"
               />
-              <span class="popup__error popup__error_visible" id="place-link-error"></span>
+              <span
+                class="popup__error popup__error_visible"
+                id="place-link-error"
+              ></span>
             </label>
             <button
               type="submit"
@@ -140,20 +149,20 @@
         </div>
       </div>
 
-<!--      <div class="popup popup_type_remove-card">-->
-<!--        <div class="popup__content">-->
-<!--          <button type="button" class="popup__close"></button>-->
-<!--          <h3 class="popup__title">Вы уверены?</h3>-->
-<!--          <form class="popup__form" name="remove-card" novalidate>-->
-<!--            <button-->
-<!--              type="submit"-->
-<!--              class="button popup__button"-->
-<!--            >-->
-<!--              Да-->
-<!--            </button>-->
-<!--          </form>-->
-<!--        </div>-->
-<!--      </div>-->
+      <!--      <div class="popup popup_type_remove-card">-->
+      <!--        <div class="popup__content">-->
+      <!--          <button type="button" class="popup__close"></button>-->
+      <!--          <h3 class="popup__title">Вы уверены?</h3>-->
+      <!--          <form class="popup__form" name="remove-card" novalidate>-->
+      <!--            <button-->
+      <!--              type="submit"-->
+      <!--              class="button popup__button"-->
+      <!--            >-->
+      <!--              Да-->
+      <!--            </button>-->
+      <!--          </form>-->
+      <!--        </div>-->
+      <!--      </div>-->
 
       <!-- Редкатировать аватар -->
       <div class="popup popup_type_edit-avatar">
@@ -172,7 +181,10 @@
                 pattern="https?://.+"
                 data-error-message="Значение должно быть ссылочным (начинаться с https:// или http://)"
               />
-              <span class="popup__error popup__error_visible" id="user-avatar-error"></span>
+              <span
+                class="popup__error popup__error_visible"
+                id="user-avatar-error"
+              ></span>
             </label>
             <button
               type="submit"
@@ -204,7 +216,10 @@
         <img class="card__image" src="" alt="" />
         <div class="card__control">
           <!--<button type="button" class="card__control-button card__control-button_type_info"></button>-->
-          <button type="button" class="card__control-button card__control-button_type_delete"></button>
+          <button
+            type="button"
+            class="card__control-button card__control-button_type_delete"
+          ></button>
         </div>
         <div class="card__description">
           <h2 class="card__title"></h2>
